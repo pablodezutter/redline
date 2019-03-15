@@ -10,6 +10,12 @@ header {
 
 }
 
+.card{
+
+padding-top: 10px;
+
+}
+
 footer {
 
 background: url(voeten2.jpg);
@@ -18,9 +24,14 @@ background-position: left;
 
 }
 
-.card{
 
-margin-top: 20%;
-margin-left: auto;
+#sneaker {
+height: 300px;
+width: 400px;
+
+}
+
+#over_ons {
+background-position: left;
 
 }
