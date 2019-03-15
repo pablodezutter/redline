@@ -5,16 +5,29 @@ header {
   }
 
 .nav-wrapper {
- background-color: transparent;
+ background: transparent;
  height: 300px;
 
 }
 
 .card{
-
-padding-top: 10px;
+margin-left: 10px;
+padding-top: 20px;
+height:500px;
+margin-top: 50px;
 
 }
+.card p {
+text-align: center;
+font-size: 24px;
+}
+
+#kleiner {
+text-align: left;
+font-size: 16px;
+}
+
+
 
 footer {
 
@@ -24,14 +37,8 @@ background-position: left;
 
 }
 
-
 #sneaker {
-height: 300px;
-width: 400px;
-
-}
-
-#over_ons {
-background-position: left;
-
+height: 250px;
+width: 350px;
+position
 }
