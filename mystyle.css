@@ -9,3 +9,18 @@ header {
  height: 300px;
 
 }
+
+footer {
+
+background: url(voeten2.jpg);
+background-size: cover;
+background-position: left;
+
+}
+
+.card{
+
+margin-top: 20%;
+margin-left: auto;
+
+}
