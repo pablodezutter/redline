@@ -16,3 +16,8 @@ uitnodigen voor 2e bespreking
 pagina verder html uitwerken, layout met Materialize
 moeilijkheden met de footer: krijg breadcrumbs niet op juiste plaats, symbolen breadcrumbs niet weergegeven. 
 opladen via git, 2 extra pagina's gemaakt: contact en shoes.
+
+#vrijdag 15 maart:
+klant is tevreden met het concept; remarks from Raf: volledige breedte benutten voor logo en footer is terug in, whitespace aanpassen, voldoende tekst in plaatsen
+
+##Hoe kan ik meerdere pagina's tegelijk wijzigen in Atom? 

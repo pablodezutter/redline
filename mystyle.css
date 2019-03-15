@@ -1,0 +1,11 @@
+header {
+  background: url(voeten.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+
+.nav-wrapper {
+ background-color: transparent;
+ height: 300px;
+
+}
