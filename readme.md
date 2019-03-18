@@ -27,3 +27,6 @@ paar nieuwe foto's voor de shoes pagina aan te vullen, proberen column links te 
 
 #maandag 17 maart: 
 colomn eindelijk links gekregen op mainpage, contactpage opzetten, foto's overzetten van usb
+problemen met de Materialize contact form op te maken, eerst gewone form opmaken html-style.
+
+Toch form met Materialize. 
