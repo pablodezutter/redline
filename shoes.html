@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Welkom bij Ortwin</title>
@@ -9,42 +10,36 @@
   <!-- Compiled and minified CSS -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  <!-- Compiled and minified JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<style>
-  header {background: url(voeten.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 300px;
-  }
-
-</style>
+ 
 </head>
 <body>
-  <div class="container">
-
-    <header>
-  <nav class="nav-wrapper transparent">
-    <div class="container">
-      <a href="#" class="brand-logo"></a>
-      <a href="" class="sidenav-trigger" data-trigger="mobile-menu">
-        <i class="material-icons">Menu</i>
-      </a>
-      <ul class="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shoes</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
-      <ul class="sidenav grey darken-3" id="mobile-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shoes</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+    <header id="header">
+      <nav class="nav-wrapper">
+        <div class="container">
+            <a href="#" class="brand-logo"></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+            </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shoes.html">Shoes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
 
-      </div><!--closing div container-->
-    </nav>
+        <ul class="sidenav" id="mobile-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      
+
+    
+    
   </header>
 
       <div class="images"></div><!--closing div images-->
@@ -87,8 +82,36 @@
               </div><!--close div card-content-->
             </div><!--close div card-->
           </div><!--close div col-->
+        </div>
 
-        </div><!--close div row-->
+          <div class="row">
+          <div class="col s12 m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="sandalen.jpg">
+                <span class="card-title"></span>
+              </div><!--close div card-image-->
+              <div class="card-content">
+                <p>Collectie Sandalen</p>
+              </div><!--close div card-content-->
+            </div><!--close div card-->
+          </div><!--close div col-->
+
+
+          <div class="col s12 m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="handtas.jpg">
+                <span class="card-title"></span>
+              </div><!--close div card-image-->
+              <div class="card-content">
+                <p>Collectie Handtassen</p>
+              </div><!--close div card-content-->
+            </div><!--close div card-->
+          </div><!--close div col-->
+          </div>
+
+
 
       </div><!--closing div content-->
     </div><!--closing div main-->
@@ -104,15 +127,13 @@
               <div class="col s12 l12">
                 <p class="grey-text text-lighten-4">Trapstraat 38</p>
                 <p class="grey-text text-lighten-4">9620 Zottegem</p>
+              </div>
             </div>
-          </div>
   <nav>
     <div class="nav-wrapper">
        <div class="col l12 push-l8">
-         <a href="index.html" class="breadcrumb">Home</a>
-         <a href="shoes.html" class="breadcrumb">Shoes</a>
-
-       </div>
+         <a href="#" class="breadcrumb">Home</a>
+             </div>
    </div>
  </nav>
             </div>
@@ -132,8 +153,13 @@
 
 
   </div><!--closing div container-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
 
 </script>
 </body>
