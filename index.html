@@ -18,11 +18,11 @@
       <header id="header">
       <nav class="nav-wrapper">
         <div class="container">
-            <a href="#" class="brand-logo">Ortwin</a>
-            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <a href="" class="brand-logo">Ortwin</a>
+            <a href="" class="sidenav-trigger" data-target="mobile-links">
             <i class="material-icons">menu</i>
             </a>
-          <ul class="right hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down">
             <li><a href="index.html">Home</a></li>
             <li><a href="shoes.html">Shoes</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -31,10 +31,10 @@
       </nav>
 
 
-        <ul class="sidenav" id="mobile-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shoes</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="sidenav grey" id="mobile-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shoes.html">Shoes</a></li>
+          <li><a href="contract.html">Contact</a></li>
         </ul>
 
   </header>
@@ -108,15 +108,17 @@
       <div>
         <div class="merk_logos">
           <div class="row">
+            <div class="col s12 push-m3">
             <img src="clarks_logo.jpg" width=200px height=200px>
             <img src="rondinella_logo.jpg" width=200px height=200px>
             <img src="stonesbones_logo.jpg" width=200px height=200px>
             <img src="vanbommel_logo.jpg">
-        </div>
+            </div>
+          </div>
         </div>
 
       </div>
-          <div class="col s12 m8" >
+          <div class="col s12 push -m1" >
               <div class="card horizontal">
                 <div class="card-image">
                   <img src="ortwin_huis.jpg" class="left-align" width="600px">
@@ -187,10 +189,9 @@
 
   </div><!--closing div container-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-
 $(document).ready(function(){
     $('.sidenav').sidenav();
   });

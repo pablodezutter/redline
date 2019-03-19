@@ -1,17 +1,22 @@
-header {
+#header {
   background: url(voeten.jpg);
   background-size: cover;
   background-position: center;
-  padding-left: 10px;
+
     }
 
 .nav-wrapper {
  background: transparent;
  height: 300px;
+
  margin: 0 auto;
 
 }
 
+a {
+font-size: 20px;
+
+}
 
 .container{
 margin:10px;
