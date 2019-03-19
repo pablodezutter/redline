@@ -2,18 +2,31 @@ header {
   background: url(voeten.jpg);
   background-size: cover;
   background-position: center;
-  font-size: 18px;
-  }
+  padding-left: 10px;
+    }
 
 .nav-wrapper {
  background: transparent;
  height: 300px;
+ margin: 0 auto;
+
+}
+
+
+.container{
+margin:10px;
+
+}
+
+.main{
+
+padding-top: 30px;
 
 }
 
 .card p {
 text-align: center;
-font-size: 24px;
+font-size: 20px;
 }
 
 #kleiner {
@@ -21,15 +34,12 @@ text-align: left;
 font-size: 16px;
 }
 
-
-
-footer {
-
-background: url(voeten2.jpg);
-background-size: cover;
-background-position: left;
+.losse_tekst{
+font-size: 16px;
+font-family:sans-serif;
 
 }
+
 
 #sneaker {
 height: 200px;
@@ -42,13 +52,44 @@ font-size: 12px;
 
 }
 
-.left{
-margin-left: -20px;
 
-}
 
 #pijlers{
 font-size: 20px;
 text-align: center;
+}
+
+.losse_tekst{
+font-size:12px;
+
+}
+.logos{
+    width: 100px;
+
+}
+
+#sneaker{
+
+  padding:10px;
+}
+
+footer {
+
+background: url(voeten2.jpg);
+background-size: cover;
+background-position: left;
+
+}
+
+.merk_logos{
+margin-bottom: 130px;
+margin-left:80px;
+padding-top:-80px;
+
+}
+
+.social_logos{
+padding-top: 5px;
+padding-right: -10px;
 
 }
